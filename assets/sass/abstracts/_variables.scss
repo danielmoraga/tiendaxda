@@ -1,0 +1,44 @@
+//importar tipografias
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap');
+// Colors
+
+$white: #fff;
+$isabelline: #ececec;
+$lightgray: #d1d1d1;
+$smookyblack: #0c0910;
+$granitegray: #646266;
+$quicksilver: #a6a5a8;
+
+
+
+// Fonts
+
+$primaryfont: 'Old Standard TT', serif;
+$secondaryfont: 'Raleway', sans-serif;
+
+
+
+// Font Size
+
+$primary-xxx-large:50px;
+$primary-xx-large:30px;
+$secondary-x-large:20px;
+$secondary-large:18px;
+$secondary-medium:16px;
+$secondary-small:14px;
+$secondary-x-small:12px;
+
+
+
+// Font Weight
+
+$font-regular: 400;
+$font-bold: 700;
+
+
+//breakpoints
+$bp-sm:576px;
+$bp-md:768px;
+$bp-lg:992px;
+$bp-xl:1200px;

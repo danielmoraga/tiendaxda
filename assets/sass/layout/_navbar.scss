@@ -1,0 +1,48 @@
+.navigation{
+    width: 100%;
+    position: fixed;
+   /* display: grid; //originalmente habia hecho el navbar en grid pero sin
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;*/
+    background-color: $white;
+
+    &__logo{
+        display: grid;
+        /*grid-column-start: 1;
+        grid-column-end: 2;*/
+        color: $white;
+        background-color: $smookyblack;  
+        width: 6rem;
+        height: 6rem;
+        align-content: center;
+
+    }
+
+    &__title{
+        font-size: $primary-xx-large;
+        margin: 0;
+        text-align: center;
+    }
+
+    &__links{
+        margin-right: 1rem;
+       /* display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 1fr;*/
+        align-items: center;
+        list-style: none;
+    }
+
+    &__item{
+        /*display: inline-block;
+        text-decoration: none;
+        margin-right: 2rem;*/
+        color: $smookyblack;
+        font-family: $secondaryfont;
+        font-weight: $font-bold;
+        font-size: $secondary-x-large;
+        
+    }
+}
+
+

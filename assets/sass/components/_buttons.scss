@@ -1,0 +1,14 @@
+.main__button{
+    background-color: $white;
+    border: 1px solid $smookyblack;
+    font-family: $secondaryfont;
+    padding: 0.5rem 2rem;
+    font-weight:$font-bold;
+    &:hover{
+    border: 1px solid $lightgray;
+    }
+    &:focus{
+    border: 1px solid $lightgray;
+    color: $lightgray;
+    }
+}

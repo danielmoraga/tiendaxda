@@ -1,0 +1,38 @@
+.footer{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    background-color: $smookyblack;
+    color: $white;
+    &__container{
+        grid-column: 1/10;
+        padding: 2rem;
+      align-self: center;  
+    }
+    &__title{
+        font-size: $primary-xx-large;
+        margin: 1rem 0;
+    }
+    &__downtext{
+        font-size: 16px;
+        margin: 0.5rem 0;
+        font-weight: $font-regular;
+    }
+
+    &__input{
+        width: 100%;
+    }
+}
+
+.newsletter{
+    grid-column: 10/10;
+    background-color: $white;
+    display: grid;
+
+    &__title{
+        color: $smookyblack;
+        writing-mode: vertical-rl;
+        display: inline-block;
+        justify-self: center;
+        align-self: center;
+    }
+}
